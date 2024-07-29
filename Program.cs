@@ -69,7 +69,7 @@ void AgegarAlCarrito()
         Console.WriteLine("Que productos quiere comprar? [salir] para dejar de comprar");
         string productoCompra = Console.ReadLine();
 
-        while (productoCompra != "salir")
+        while (true)
         {
         if (productoCompra == productoUno)
         {
